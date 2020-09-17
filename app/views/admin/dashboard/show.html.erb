@@ -1,2 +1,12 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<!-- <h1>Admin::Dashboard#show</h1>
+<p>Find me in app/views/admin/dashboard/show.html.erb</p> -->
+
+<h1>Products in database:
+  <%= @products.size %>
+</h1>
+
+<%= link_to 'Admin Products', admin_products_path, class: 'btn btn-primary' %>
+
+<h1>Categories in database:
+  <%= @categories.size %>
+</h1>
