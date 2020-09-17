@@ -19,8 +19,8 @@
         </tr>
       </thead>
       <tbody>
-        <% @line_items.each_with_index do |item, index| %>
-          <%= render 'line_item', product: item, quantity: @order.line_items[index].quantity.to_i %>
+        <% @products.each_with_index do |item, index| %>
+          <%= render 'line_item', product: item, quantity: @line_items[index].quantity.to_i %>
         <% end %>
       </tbody>
       <tfoot>
