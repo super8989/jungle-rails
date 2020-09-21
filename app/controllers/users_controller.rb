@@ -12,7 +12,7 @@ class UsersController < ApplicationController
       session[:user_id] = user.id
       redirect_to '/', notice: 'User created!'
     else
-      render '/signup'
+      render 'new'
     end
   end
 
