@@ -4,7 +4,7 @@
   </header>
 
   <div class="well">
-    <%# :new --> method in controller, :category --> path %>
+    <%# [:new, :admin, :category] == new_admin_category_path == /admin/category/new >> gets created from adding :new to the route %>
     <%= link_to '+ New Category', [:new, :admin, :category], class: 'btn btn-info' %>
   </div>
 
@@ -16,6 +16,10 @@
       </tr>
     </thead>
     <tbody>
+      <!-- @categories from Controller index method -->
+      <!-- to check what @categories is : <%# raise @sales.inspect %> >>> shows error message <ActiveRecord::Relation []> meaning it's an array -->
+      <!-- <%#= render @categories %> == <%# @sales.each do |s| %> 
+                                          <%#= render 'sale', sale: s %> render partial 'sale' and pass in local variable sale: s -->
       <%= render @categories %>
     </tbody>
   </table>
