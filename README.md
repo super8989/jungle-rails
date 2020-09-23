@@ -2,6 +2,21 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+# Features
+
+### User:
+
+- can register and log in
+- can view all products or by categories
+- can view details of products: price and remaining quantities
+- can add items to carts and checkout (Stripe implemented)
+
+### Admin
+
+- can log in as an administrator
+- has privileges to create/delete categories and products
+
+# Screenshots
 
 ## Setup
 
@@ -22,6 +37,6 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Dependencies
 
-* Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
-* PostgreSQL 9.x
-* Stripe
+- Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
+- PostgreSQL 9.x
+- Stripe
