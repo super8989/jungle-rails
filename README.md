@@ -2,7 +2,7 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
-# Features
+## Features
 
 ### User:
 
@@ -16,7 +16,17 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 - can log in as an administrator
 - has privileges to create/delete categories and products
 
-# Screenshots
+## Screenshots
+
+!["screenshot of homepage"](https://github.com/super8989/jungle-rails/blob/master/docs/01Home.png?raw=true)
+
+!["screenshot of product"](https://github.com/super8989/jungle-rails/blob/master/docs/02Product.png?raw=true)
+
+!["screenshot of cart"](https://github.com/super8989/jungle-rails/blob/master/docs/03Cart.png?raw=true)
+
+!["screenshot of checkout"](https://github.com/super8989/jungle-rails/blob/master/docs/04Checkout.png?raw=true)
+
+!["screenshot of admin"](https://github.com/super8989/jungle-rails/blob/master/docs/05Admin.png?raw=true)
 
 ## Setup
 
